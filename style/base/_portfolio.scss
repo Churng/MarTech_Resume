@@ -1,9 +1,10 @@
 .protfolio-info {
-    max-height: 500px;
-    overflow: scroll;
+    
     .IGs {
         display: flex;
         flex-direction: row;
+        max-height: 500px;
+        overflow: scroll;
     }
 
 }
