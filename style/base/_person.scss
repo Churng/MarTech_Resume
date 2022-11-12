@@ -1,0 +1,56 @@
+.Person-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+
+    .u-img {
+        width: 180px;
+        height: 180px;
+        overflow: hidden;
+        border-radius: 50%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    
+    
+        img {
+            width: 100%;
+            margin-top: -10px;
+        }
+    }
+    
+    .u-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    
+        .en-name {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .short-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            font-size: 22px;
+            margin: 20px 0;
+        }
+    }
+
+    .social-icon {
+        margin: 20px 0;
+    }
+}
+

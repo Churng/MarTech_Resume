@@ -1,0 +1,67 @@
+@import './base/reset';
+@import './base/color';
+@import './base/person';
+@import './base/ep';
+@import './base/workep';
+@import './base/bio';
+@import './base/portfolio';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+i {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Contain {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.fa-linkedin-square, .fa-instagram, .fa-window-maximize {
+    padding: 0 10px;
+}
+
+.color-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+    background-color: $color-seablue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.prot-tag {
+    font-size: 22px;
+    font-weight: bold;
+    background-color:$color-lightskin;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.Expe-info,
+.protfolio-info,
+.work-expe,
+.bio-info {
+    h2 {
+        font-size: 35px;
+        font-weight: bold;
+        color: $color-darkskin;
+        margin: 20px 0;
+    }
+}
+
+.font-800w {
+    font-weight: 800;
+}

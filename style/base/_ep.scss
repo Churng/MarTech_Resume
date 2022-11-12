@@ -1,0 +1,46 @@
+.Expe-info{
+    .content-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        li {
+            width: 30%;
+            
+            p {
+                background-color: $color-lightblue;
+                color: black;
+                padding:10px 20px;
+                font-size: 35px;
+                font-weight: bold;
+                border-radius: 10px;
+                text-align: center;
+            }
+        }
+
+        .brand-top {
+            border-top: 5px solid $color-seablue;
+            padding: 30px 0 0;
+        }
+
+        ol{
+            padding: 20px;
+            li {
+                width: 100%;
+                margin: 10px 0;
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+@media  (max-width: 768px) {
+    .Expe-info{
+        .content-block {
+            flex-direction: column;
+            li {
+                width: 100%;
+            }
+        }
+    }
+}
